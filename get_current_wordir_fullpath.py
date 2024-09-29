@@ -1,0 +1,5 @@
+import os
+
+current_working_directory=os.getcwd()
+full_path_of_current_directory=os.path.abspath(current_working_directory)
+print(full_path_of_current_directory)
